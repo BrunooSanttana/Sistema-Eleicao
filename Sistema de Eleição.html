@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Votação</title>
+</head>
+
+<body>
+    <h1>Sistema de Votação</h1>
+
+    Informe Sua idade <input type="number" name="txtidade" id="txtidade"> anos
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="res">
+
+
+
+
+</body>
+<script>
+    function 'verificar()' {
+        var txtidade = 68
+        if (idade < 16) {
+            console.log('você não pode votar')
+        } else if (idade < 18 || idade > 65) {
+            console.log('seu voto é opcional')
+        } else {
+            console.log('voto obrigatório')
+
+        }
+        res.innerHTML = `<p>Sua velocidade é de <strong>${vel} Km/h</strong></p>`
+    }
+</script>
+
+</html>
